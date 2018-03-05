@@ -1,0 +1,19 @@
+.spinner-wrapper,
+.spinner-wrapper span {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.spinner-wrapper {
+    width: 100px;
+    height: 100px;
+    background: aquamarine;
+    border-radius: 50%;
+}
+
+.spinner-wrapper span {
+    color: red;
+}
