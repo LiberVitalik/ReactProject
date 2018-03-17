@@ -2,3 +2,8 @@
 @import "../common-styles/fonts.scss";
 @import "../common-styles/_mixins.scss";
 @import "../common-styles/_variables.scss";
+
+
+.hidden {
+    display: none !important;
+}

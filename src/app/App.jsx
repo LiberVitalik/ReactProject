@@ -6,6 +6,7 @@ import List from './components/newsApi/NewsApi';
 import 'font-awesome/scss/font-awesome.scss';
 
 import './App.scss';
+import LoginForm from "./components/header/login/loginForm/LoginForm";
 
 export default class App extends Component {
     constructor(props) {
@@ -15,10 +16,12 @@ export default class App extends Component {
     render() {
         return (
             <div>
-                <div className={'App'}></div>
-                <Header></Header>
-                <Spinner></Spinner>
-                <List></List>
+                <div className={'App'}>
+                    <Header></Header>
+                    {/*<Spinner></Spinner>*/}
+                    <List></List>
+                    <LoginForm></LoginForm>
+                </div>
             </div>
         );
     }
